@@ -131,5 +131,5 @@ if st.button("Generate Resume"):
                 unsafe_allow_javascript=True)
 st.divider()
 job_code = get_jobs(agent,location,profile)
-st.html(job_code, width="stretch"'
+st.html(job_code, width="stretch",
         unsafe_allow_javascript=True)
