@@ -45,7 +45,7 @@ location = st.sidebar.multiselect("Select Location",
 profile_op = ["Data Analysts","AI Engineer","Gen AI Developer"]
 profile = st.sidebar.multiselect("Select job profile",
                                  options = profile_op)
-sr.markdown("""### GET USER INFO""")
+st.markdown("""### GET USER INFO""")
 user_info = st.text_area("""Write your Resume Description:""")
 
 #=========================
