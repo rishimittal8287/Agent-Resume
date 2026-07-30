@@ -38,6 +38,16 @@ elif all(all_API):
 else:
     st.info("PASS ALL API-KEYS")
 
+# MULTISELECT OPTION
+options = ["delhi","mumbai","pune","banglore"]
+location = st.sidebar.multiselect("Select Location",
+                                  options = options)
+profile_op = ["Data Analysts","AI Engineer","Gen AI Developer"]
+profile = st.sidebar.multiselect("Select job profile",
+                                 options = profile_op)
+sr.markdown("""### GET USER INFO""")
+user_info = st.text_area("""Write your Resume Description:""")
+
 #=========================
 model = ChatGoogleGenerativeAI(
     model = 'gemini-3.5-flash-lite',
@@ -114,3 +124,6 @@ Show atleast Top 10-20 results with direct apply link"""
 
 # code = get_jobs(agent)
 # DISPLAY.HTML(code)
+
+if st.button("Generate Resume"):
+            code = main_agent(agent,user_info
