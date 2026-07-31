@@ -64,8 +64,8 @@ def search_latest__news_jobs(query):
   return response
 #========================
 agent = create_agent(
-                      model=model,
-                      tools = [search_latest__news_jobs])
+model=model,
+tools = [search_latest__news_jobs])
 # agent
 #============================
 def main_agent(agent, query):
