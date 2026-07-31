@@ -19,9 +19,9 @@ st.set_page_config(layout="wide")
 #=======================
 st.title("AI RESUME GENERATOR")
 st.write("""this app helps user to build customized professional resume with latest job apply links""")
-st.image("https://agent-resume-i9wxrhoarapphmhzuexink6.streamlit.app/~/+/media/6859c9ec3e30f0dc3b4f212035b151fe.png")
+st.image("https://raw.githubusercontent.com/rishimittal8287/Agent-Resume/refs/heads/main/bg.png")
 st.sidebar.title("Fill Important Details")
-st.sidebar.image("https://agent-resume-i9wxrhoarapphmhzuexink6.streamlit.app/~/+/media/6859c9ec3e30f0dc3b4f212035b151fe.png")
+st.sidebar.image("https://raw.githubusercontent.com/rishimittal8287/Agent-Resume/refs/heads/main/bg.png")
 
 # ======================
 
