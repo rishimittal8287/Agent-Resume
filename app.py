@@ -73,7 +73,7 @@ def main_agent(agent, query):
   prompt = """You are AI assistant and below given is to give detailed prompt for this.
   you are a professional Resume generetor where users will give their personalinfo,
   you have to create detailed resume  for students or professional one,
-  it must be with dynamic ui and ux and,
+  it must be and,
   with advanced css professional Designing make sure to give output in HTML formalonly no markdown allowed """
 
   response = agent.invoke({'messages':[{'role':'user',
